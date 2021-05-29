@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.customcontainer {
+  padding: 0 5%;
+}
+
+@media screen and (max-width: 450px) {
+  .customcontainer {
+    padding: 2%;
+  }
+}
+
+.long {
+  height: 200vh;
+}
+
+.navbar-fixed {
+  height: auto;
+}
+
+nav {
+  color: #ffffff;
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: 0px 2px 20px rgba(17, 22, 31, 0.15);
+          box-shadow: 0px 2px 20px rgba(17, 22, 31, 0.15);
+}
+
+nav ul a {
+  color: black;
+}
+
+.scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.scrolled .brand-logo {
+  position: absolute;
+  color: gray;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}
+
+.scrolled ul a {
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  font-size: 1rem;
+  color: black;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.sidenav li:first-child {
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: 8%;
+}
+
+.sidenav .content {
+  position: absolute;
+  top: 30%;
+  -webkit-transform: translateX(0, 80%);
+          transform: translateX(0, 80%);
+}
+
+.sidenav .content li {
+  line-height: 20px;
+  margin: 2% 0;
+}
+
+.sidenav .content svg {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  margin-right: 8px;
+}
+
+#ob .iob img {
+  margin-top: 100px;
+}
+
+#ob .iob h1 {
+  color: #2c3291;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  margin-top: 2%;
+  font-size: 3.2em;
+  margin-left: 5%;
+}
+
+#ob .iob h2 {
+  margin: 0;
+  padding: 0;
+  color: #3c3d47;
+  margin-top: 3%;
+  margin-left: 15%;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+#ob .iob h3 {
+  margin: 0;
+  padding: 0;
+  color: #3c3d47;
+  margin-top: 3%;
+  margin-left: 35%;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+#ob .iob button {
+  margin: 8%;
+  background-color: #2c3291;
+  color: white;
+  border-radius: 25px;
+  width: 80%;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#pins .ipins {
+  padding-top: 80px;
+}
+
+#pins .ipins h1 {
+  margin: 0;
+  font-size: 2em;
+  margin-bottom: 3%;
+}
+
+#pins .ipins h1 span {
+  color: #2c3291;
+  font-weight: bold;
+}
+
+#caro .icaro h1 {
+  font-size: 1.5em;
+}
+
+#caro .icaro img {
+  height: 150px;
+  border-radius: 15px;
+}
+
+#caro .icaro p {
+  color: #3c3d47;
+  line-height: 20px;
+}
+
+#archives .iarchives h1 {
+  font-size: 1.5em;
+}
+
+#archives .iarchives .card {
+  -webkit-box-shadow: 0px 2px 20px rgba(17, 22, 31, 0.322);
+          box-shadow: 0px 2px 20px rgba(17, 22, 31, 0.322);
+  padding: 2% 0;
+  border-radius: 15px;
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+  padding-top: 5%;
+}
+
+#archives .iarchives .card img {
+  border-radius: 15px;
+}
+
+#archives .iarchives .card h2 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+#archives .iarchives .card .date {
+  font-size: 0.8em;
+  color: gray;
+}
+
+#archives .iarchives .card p {
+  margin-top: 3%;
+  font-size: 1em;
+}
+
+#footer .ifooter {
+  background-color: #2c3291;
+  padding: 2% 0;
+  color: white;
+  text-align: center;
+}
+
+#calenda .icalenda {
+  padding-top: 80px;
+  min-height: 88vh;
+}
+
+#calenda .icalenda h1 {
+  font-size: 2em;
+  color: #3c3d47;
+}
+
+#contact .icontact {
+  padding-top: 80px;
+  min-height: 88vh;
+}
+
+#contact .icontact h1 {
+  font-size: 2em;
+}
+
+#contact .icontact input:not([type]):focus:not([readonly]),
+#contact .icontact input[type=text]:not(.browser-default):focus:not([readonly]),
+#contact .icontact textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #2c3291;
+  -webkit-box-shadow: 0 1px 0 0 #2c3291;
+  box-shadow: 0 1px 0 0 #2c3291;
+}
+
+#contact .icontact input:not([type]):focus:not([readonly]) + label,
+#contact .icontact input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+#contact .icontact textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #2c3291;
+}
+
+#contact .icontact button {
+  background-color: #2c3291;
+}
+/*# sourceMappingURL=main.css.map */

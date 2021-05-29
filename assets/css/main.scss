@@ -1,0 +1,247 @@
+@import "./_variables";
+@import "./_general";
+// @import "./navbar";
+
+//////////////////////// Nav Bar ///////////////////
+.navbar-fixed {
+    height: auto;
+}
+
+nav {
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    transition: 1s;
+    // box-shadow: none;
+    box-shadow: 0px 2px 20px rgba(17, 22, 31, 0.15);
+    ul a {
+        color: black;
+    }
+
+}
+
+
+.scrolled {
+    background-color: rgba(255, 255, 255, 0.95);
+
+    // height: 90px;
+    // line-height: 90px;
+    // border-bottom: 6px solid rgb(71, 150, 84);
+    .brand-logo {
+        position: absolute;
+        color: rgb(128, 128, 128);
+        display: inline-block;
+        font-size: 2.1rem;
+        padding: 0;
+
+    }
+
+    ul a {
+        -webkit-transition: background-color .3s;
+        transition: background-color .3s;
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        display: block;
+        padding: 0 15px;
+        cursor: pointer;
+    }
+}
+
+.sidenav{
+    li:first-child{
+        font-weight: bold;
+        font-size: 3em;
+        margin-top: 8%;
+    }
+
+    .content{
+        position: absolute;
+        top: 30%;
+        // left: 50%;
+        transform: translateX(0, 80%);
+        li{
+            line-height: 20px;
+            margin: 2% 0;
+        }
+        svg{
+            transform: translateY(5px);
+            margin-right: 8px;
+        }
+    }
+
+}
+
+
+
+
+// end of nav bar
+
+
+//////////////////////// #Nav Bar ///////////////////
+
+#ob{
+    .iob{
+        img{
+            margin-top: 100px;
+        }
+        h1{
+            color: $sample1;
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            margin-top: 2%;
+            font-size: 3.2em;
+            margin-left: 5%;
+        }
+        h2{
+            margin: 0;
+            padding: 0;
+            color: $sample2;
+            margin-top: 3%;
+            margin-left: 15%;
+            font-weight: 700;
+            font-size: 2.5em;
+        }
+
+        h3{
+            margin: 0;
+            padding: 0;
+            color: $sample2;
+            margin-top: 3%;
+            margin-left: 35%;
+            font-weight: 400;
+            font-size: 2.5em;
+        }
+
+        button{
+            margin: 8%;
+            background-color: $sample1;
+            color: white;
+            border-radius: 25px;
+            width: 80%;
+            border: none;
+            box-shadow: none;
+            // padding-bottom: 2% 0;
+        }
+    }
+}
+
+#pins{
+    .ipins{
+        padding-top: 80px;
+        h1{
+            margin: 0;
+            font-size: 2em;
+            margin-bottom: 3%;
+            span{
+                color: $sample1;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#caro{
+    .icaro{
+        h1{
+            font-size: 1.5em;
+        }
+        img{
+            height: 150px;
+            border-radius: 15px;
+        }
+        p{
+            color: $sample2;
+            // text-align: center;
+            line-height: 20px;
+        }
+    }
+}
+
+#archives{
+    .iarchives{
+
+        h1{
+            font-size: 1.5em;
+        }
+        .card{
+            box-shadow: 0px 2px 20px rgba(17, 22, 31, 0.322);
+            padding: 2% 0;
+            border-radius: 15px;
+            padding-bottom: 1%;
+            margin-bottom: 3%;
+            padding-top: 5%;
+            img{
+                border-radius: 15px;
+            }
+
+            h2{
+                font-size: 1.5em;
+                margin: 0;
+                margin-bottom: 3px;
+            }
+
+            .date {
+                font-size: 0.8em;
+                color: gray;
+            }
+
+            p{
+                margin-top: 3%;
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+
+#footer{
+    .ifooter{
+        background-color: $sample1;
+        padding: 2% 0;
+        color: white;
+        text-align: center;
+    }
+}
+
+#calenda{
+    .icalenda{
+        padding-top: 80px;
+        min-height: 88vh;
+        h1{
+            font-size: 2em;
+            color: $sample2
+        }
+    }
+}
+
+#contact{
+    .icontact{
+        padding-top: 80px;
+        min-height: 88vh;
+        h1{
+            font-size: 2em;
+        }
+
+        input:not([type]):focus:not([readonly]),
+        input[type=text]:not(.browser-default):focus:not([readonly]),
+        textarea.materialize-textarea:focus:not([readonly]) {
+        border-bottom: 1px solid $sample1;
+        -webkit-box-shadow: 0 1px 0 0 $sample1;
+          box-shadow: 0 1px 0 0 $sample1;
+        }
+
+        input:not([type]):focus:not([readonly]) + label,
+        input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+        textarea.materialize-textarea:focus:not([readonly]) + label {
+            color: $sample1;
+        }
+
+        button{
+            background-color: $sample1;
+        }
+
+    }
+}
